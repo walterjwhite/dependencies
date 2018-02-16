@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.walterjwhite.infrastructure</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>0.0.15-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+    <artifactId>jspeedtest</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>jspeedtest</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>fr.bmartel</groupId>
+            <artifactId>jspeedtest</artifactId>
+            <version>${jspeedtest.version}</version>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <jspeedtest.version>1.31.2</jspeedtest.version>
+    </properties>
+</project>

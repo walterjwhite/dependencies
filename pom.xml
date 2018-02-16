@@ -1,0 +1,128 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+		<groupId>com.walterjwhite</groupId>
+		<artifactId>infrastructure</artifactId>
+		<version>0.0.15-SNAPSHOT</version>
+    </parent>
+    
+    <name>dependencies</name>
+    <description>dependencies</description>
+    <url>https://github.com/walterjwhite/dependencies.git</url>
+    
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>amazon-config</module>
+        <module>amazon-s3</module>
+        <module>amazon-sqs</module>
+
+        <module>apache-jackrabbit</module>
+        <module>apache-pdfbox</module>
+        <module>apache-mahout</module>
+        <module>apache-poi</module>
+
+        <module>ashot</module>
+
+        <module>aspectjrt</module>
+        <module>aspectjtools</module>
+
+        <module>atomikos-jta</module>
+
+        <module>bouncy-castle</module>
+        <module>box</module>
+
+        <module>commons-cli</module>
+        <module>commons-io</module>
+        <module>commons-codec</module>
+        <module>commons-compress</module>
+        <module>commons-crypto</module>
+        <module>commons-csv</module>
+        <module>commons-lang</module>
+        <module>commons-logging</module>
+        <module>commons-text</module>
+        <module>cups4j</module>
+
+        <module>derby</module>
+
+        <module>eclipselink</module>
+        <module>elasticsearch</module>
+        <module>expectit</module>
+        <module>ews-java-api</module>
+
+        <module>google-cloud</module>
+        <module>google-cloud-pub-sub</module>
+        <module>google-cloud-storage</module>
+        <module>google-dagger</module>
+        <module>google-guava</module>
+        <module>google-guice</module>
+        <module>google-guice-multi</module>
+        <module>google-guice-persist</module>
+
+        <module>h2</module>
+        <module>hibernate</module>
+        <module>hibernate-hikari</module>
+        <module>hikari-jdbc-connection-pool</module>
+
+        <module>jackson</module>
+        <module>javamail</module>
+        <module>javax-enterprise-cdi</module>
+        <module>javax-inject</module>
+        <module>javax-transaction</module>
+
+        <module>jbrowserdriver</module>
+        <module>jgit</module>
+        <module>joda-time</module>
+        <module>json</module>
+        <module>jspeedtest</module>
+        <module>jira-client</module>
+        <module>jooq</module>
+
+        <module>kryo</module>
+
+        <module>logback-classic</module>
+        <module>microbenchmark-harness</module>
+        <module>micrometer</module>
+
+        <!--<module>netflix-atlas</module>-->
+        <!--<module>netflix-governator</module>-->
+
+        <!--<module>objectdb</module>-->
+
+        <module>p6spy</module>
+
+        <module>postgresql</module>
+        <module>prometheus</module>
+
+        <module>querydsl</module>
+
+        <module>reflections</module>
+        
+        <module>resilience4j-bulkhead</module>
+        <module>resilience4j-cache</module>
+        <module>resilience4j-circuitbreaker</module>
+        <module>resilience4j-ratelimiter</module>
+        <module>resilience4j-retry</module>
+        <module>resilience4j-timelimiter</module>
+
+        <module>slf4j-api</module>
+        <module>slf4j-simple</module>
+        <module>snakeyaml</module>
+
+
+        <module>sshj</module>
+        <module>string-template</module>
+
+        <module>univocity-csv</module>
+        <module>vaadin</module>
+    </modules>
+
+    <scm>
+        <connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/dependencies.git</connection>
+        <developerConnection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/dependencies.git</developerConnection>
+        <url>https://github.com/walterjwhite/dependencies.git</url>
+    </scm>
+</project>

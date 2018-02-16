@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.walterjwhite.infrastructure</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>0.0.15-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+    <artifactId>jbrowserdriver</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>jbrowserdriver</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.machinepublishers</groupId>
+            <artifactId>jbrowserdriver</artifactId>
+            <version>${jbrowserdriver.version}</version>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Is this really needed, this causes issues when creating an uber jar -->
+        <!--<dependency>-->
+            <!--<groupId>org.seleniumhq.webdriver</groupId>-->
+            <!--<artifactId>webdriver-support</artifactId>-->
+            <!--<version>${selenium.support.version}</version>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>${selenium.support.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <jbrowserdriver.version>0.17.10</jbrowserdriver.version>
+        <!--<selenium.support.version>3.5.3</selenium.support.version>-->
+        <selenium.support.version>2.53.1</selenium.support.version>
+    </properties>
+</project>

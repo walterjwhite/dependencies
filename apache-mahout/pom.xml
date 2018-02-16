@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.walterjwhite.infrastructure</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>0.0.15-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+    <artifactId>apache-mahout</artifactId>
+
+    <packaging>pom</packaging>
+
+    <name>mahout</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-core</artifactId>
+            <version>${apache.mahout.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-math</artifactId>
+            <version>${apache.mahout.math.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-utils</artifactId>
+            <version>${apache.mahout.utils.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <apache.mahout.core.version>0.9</apache.mahout.core.version>
+        <apache.mahout.utils.version>0.5</apache.mahout.utils.version>
+        <apache.mahout.math.version>0.13.0</apache.mahout.math.version>
+    </properties>
+</project>
