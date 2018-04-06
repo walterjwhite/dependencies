@@ -1,29 +1,23 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>dependencies</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-    <artifactId>resilience4j-circuitbreaker</artifactId>
-
-    <packaging>pom</packaging>
-
-    <name>resilience4j-circuitbreaker</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>io.github.resilience4j</groupId>
-            <artifactId>resilience4j-circuitbreaker</artifactId>
-            <version>${resilience4j.version}</version>
-        </dependency>
-    </dependencies>
-
-    <properties>
-        <resilience4j.version>0.11.0</resilience4j.version>
-    </properties>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <artifactId>resilience4j-circuitbreaker</artifactId>
+  <packaging>pom</packaging>
+  <name>resilience4j-circuitbreaker</name>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.resilience4j</groupId>
+      <artifactId>resilience4j-circuitbreaker</artifactId>
+      <version>${resilience4j.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <resilience4j.version>0.12.1</resilience4j.version>
+  </properties>
 </project>

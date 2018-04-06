@@ -1,28 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>dependencies</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-    <artifactId>ashot</artifactId>
-
-    <packaging>pom</packaging>
-
-    <name>ashot</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>ru.yandex.qatools.ashot</groupId>
-            <artifactId>ashot</artifactId>
-            <version>${ashot.version}</version>
-        </dependency>
-    </dependencies>
-
-    <properties>
-        <ashot.version>1.5.4</ashot.version>
-    </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <artifactId>ashot</artifactId>
+  <packaging>pom</packaging>
+  <name>ashot</name>
+  <dependencies>
+    <dependency>
+      <groupId>ru.yandex.qatools.ashot</groupId>
+      <artifactId>ashot</artifactId>
+      <version>${ashot.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.bytebuddy</groupId>
+      <artifactId>byte-buddy</artifactId>
+      <version>${byte-buddy.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <ashot.version>1.5.4</ashot.version>
+    <byte-buddy.version>1.8.3</byte-buddy.version>
+  </properties>
 </project>

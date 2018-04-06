@@ -1,28 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>dependencies</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-    <artifactId>string-template</artifactId>
-
-    <packaging>pom</packaging>
-
-    <name>string-template</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.antlr</groupId>
-            <artifactId>ST4</artifactId>
-            <version>${string.template.version}</version>
-        </dependency>
-    </dependencies>
-
-    <properties>
-        <string.template.version>4.0.8</string.template.version>
-    </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <artifactId>string-template</artifactId>
+  <packaging>pom</packaging>
+  <name>string-template</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.antlr</groupId>
+      <artifactId>ST4</artifactId>
+      <version>${string.template.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <string.template.version>4.0.8</string.template.version>
+  </properties>
 </project>

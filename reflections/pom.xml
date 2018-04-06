@@ -1,36 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>dependencies</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-    <artifactId>reflections</artifactId>
-
-    <packaging>pom</packaging>
-
-    <name>reflections</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>${reflections.version}</version>
-        </dependency>
-
-        <!-- When writing XML, this is required -->
-        <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>${dom4j.version}</version>
-        </dependency>
-    </dependencies>
-
-    <properties>
-        <reflections.version>0.9.11</reflections.version>
-        <dom4j.version>1.6.1</dom4j.version>
-    </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <artifactId>reflections</artifactId>
+  <packaging>pom</packaging>
+  <name>reflections</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>${reflections.version}</version>
+    </dependency>
+    <!-- When writing XML, this is required -->
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>${dom4j.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <reflections.version>0.9.11</reflections.version>
+    <dom4j.version>1.6.1</dom4j.version>
+  </properties>
 </project>

@@ -1,29 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.walterjwhite.infrastructure</groupId>
-        <artifactId>dependencies</artifactId>
-        <version>0.0.15-SNAPSHOT</version>
-    </parent>
-
-    <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
-    <artifactId>p6spy</artifactId>
-
-    <packaging>pom</packaging>
-
-    <name>p6spy</name>
-
-    <dependencies>
-        <dependency>
-            <groupId>p6spy</groupId>
-            <artifactId>p6spy</artifactId>
-            <version>${p6spy.version}</version>
-        </dependency>
-
-    </dependencies>
-
-    <properties>
-        <p6spy.version>3.4.0</p6spy.version>
-    </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.walterjwhite.infrastructure</groupId>
+    <artifactId>dependencies</artifactId>
+    <version>0.0.15-SNAPSHOT</version>
+  </parent>
+  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <artifactId>p6spy</artifactId>
+  <packaging>pom</packaging>
+  <name>p6spy</name>
+  <dependencies>
+    <dependency>
+      <groupId>p6spy</groupId>
+      <artifactId>p6spy</artifactId>
+      <version>${p6spy.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <p6spy.version>3.7.0</p6spy.version>
+  </properties>
 </project>
