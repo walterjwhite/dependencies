@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>vaadin</artifactId>
   <packaging>pom</packaging>
   <name>vaadin</name>
@@ -41,6 +41,7 @@
         -->
   </dependencies>
   <properties>
-    <vaadin.version>8.3.3</vaadin.version>
+    <!-- migrate to V12 -->
+    <vaadin.version>8.7.0.beta1</vaadin.version>
   </properties>
 </project>

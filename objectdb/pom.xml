@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>objectdb</artifactId>
   <packaging>pom</packaging>
   <name>objectdb</name>
@@ -20,12 +20,12 @@
     <dependency>
       <groupId>org.eclipse.persistence</groupId>
       <artifactId>javax.persistence</artifactId>
-      <version>2.2.0</version>
+      <version>${eclipse.persistence.version}</version>
     </dependency>
     <dependency>
       <groupId>javax.transaction</groupId>
       <artifactId>jta</artifactId>
-      <version>1.1</version>
+      <version>${javax.transaction.version}</version>
     </dependency>
   </dependencies>
   <repositories>
@@ -36,6 +36,8 @@
     </repository>
   </repositories>
   <properties>
-    <objectdb.version>2.7.2</objectdb.version>
+    <objectdb.version>2.7.6_01</objectdb.version>
+    <eclipse.persistence.version>2.2.1</eclipse.persistence.version>
+    <javax.transaction.version>1.1</javax.transaction.version>
   </properties>
 </project>

@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>jbrowserdriver</artifactId>
   <packaging>pom</packaging>
   <name>jbrowserdriver</name>
@@ -35,11 +35,11 @@
             <version>${selenium.support.version}</version>
         </dependency>
         -->
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
     <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
+      <groupId>com.walterjwhite.java.dependencies</groupId>
       <artifactId>selenium-support</artifactId>
-      <version>${selenium.support.version}</version>
+      <version>0.0.15-SNAPSHOT</version>
+      <type>pom</type>
     </dependency>
   </dependencies>
   <build>
@@ -72,8 +72,8 @@
     </plugins>
   </build>
   <properties>
-    <jbrowserdriver.version>1.0.0-RC1</jbrowserdriver.version>
+    <jbrowserdriver.version>1.0.1</jbrowserdriver.version>
     <!--<selenium.support.version>3.5.3</selenium.support.version>-->
-    <selenium.support.version>3.11.0</selenium.support.version>
+    <selenium.support.version>3.14.0</selenium.support.version>
   </properties>
 </project>

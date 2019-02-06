@@ -2,23 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>netflix-atlas</artifactId>
   <packaging>pom</packaging>
   <name>netflix-atlas</name>
   <dependencies>
+    <!--<dependency>-->
+    <!--<groupId>com.netflix.atlas_v1</groupId>-->
+    <!--<artifactId>atlas-core_${atlas.version}</artifactId>-->
+    <!--<version>${atlas.build.version}</version>-->
+    <!--</dependency>-->
     <dependency>
-      <groupId>com.netflix.atlas_v1</groupId>
-      <artifactId>atlas-core_${atlas.version}</artifactId>
-      <version>${atlas.build.version}</version>
+      <groupId>com.netflix.atlas</groupId>
+      <artifactId>atlas-core</artifactId>
+      <version>${netflix.atlas.version}</version>
     </dependency>
   </dependencies>
   <properties>
-    <atlas.version>2.12</atlas.version>
-    <atlas.build.version>1.6.0-rc.6</atlas.build.version>
+    <!--<atlas.version>2.12</atlas.version>-->
+    <!--<atlas.build.version>1.6.0-rc.6</atlas.build.version>-->
+    <netflix.atlas.version>1.4.4</netflix.atlas.version>
   </properties>
 </project>

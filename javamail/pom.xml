@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>javamail</artifactId>
   <packaging>pom</packaging>
   <name>javamail</name>
@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <javamail.version>1.6.1</javamail.version>
+    <javamail.version>1.6.2</javamail.version>
   </properties>
 </project>

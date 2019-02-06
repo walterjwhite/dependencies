@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.walterjwhite</groupId>
-    <artifactId>infrastructure</artifactId>
+    <artifactId>java</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
   <name>dependencies</name>
   <description>dependencies</description>
   <url>https://github.com/walterjwhite/dependencies.git</url>
-  <groupId>com.walterjwhite.infrastructure</groupId>
+  <groupId>com.walterjwhite.java</groupId>
   <artifactId>dependencies</artifactId>
   <packaging>pom</packaging>
   <modules>
@@ -44,7 +44,8 @@
     <module>expectit</module>
     <module>ews-java-api</module>
     <module>google-cloud</module>
-    <module>google-cloud-pub-sub</module>
+    <!-- Problem resolving dependencies -->
+    <!--<module>google-cloud-pub-sub</module>-->
     <module>google-cloud-storage</module>
     <module>google-dagger</module>
     <module>google-guava</module>
@@ -52,15 +53,22 @@
     <module>google-guice-multi</module>
     <module>google-guice-persist</module>
     <module>google-guice-servlet</module>
+    <module>google-tensorflow</module>
     <module>h2</module>
     <module>hibernate</module>
     <module>hibernate-hikari</module>
+    <module>hibernate-jpamodelgen</module>
+    <!--<module>hibernate-validator</module>-->
     <module>hikari-jdbc-connection-pool</module>
     <module>jackson</module>
     <module>javamail</module>
     <module>javax-enterprise-cdi</module>
     <module>javax-inject</module>
+    <module>javax-servlet</module>
     <module>javax-transaction</module>
+    <!--<module>javax-validation</module>-->
+    <module>jcabi-manifests</module>
+    <module>jcifs-ng</module>
     <module>jetty</module>
     <module>jbrowserdriver</module>
     <module>jgit</module>
@@ -70,15 +78,20 @@
     <module>jira-client</module>
     <module>jooq</module>
     <module>kryo</module>
+    <module>lettuce-redis-client</module>
     <module>logback-classic</module>
+    <!--<module>lombok</module>-->
     <module>microbenchmark-harness</module>
     <module>micrometer</module>
+    <module>micrometer-elastic</module>
     <module>micrometer-netflix-atlas</module>
     <module>micrometer-prometheus</module>
     <module>neo4j</module>
-    <!--<module>netflix-atlas</module>-->
-    <!--<module>netflix-governator</module>-->
-    <!--<module>objectdb</module>-->
+    <module>netflix-atlas</module>
+    <module>netflix-governator</module>
+    <module>objectdb</module>
+    <module>optaplanner</module>
+    <module>tracing</module>
     <module>p6spy</module>
     <module>postgresql</module>
     <module>prometheus</module>
@@ -90,6 +103,8 @@
     <module>resilience4j-ratelimiter</module>
     <module>resilience4j-retry</module>
     <module>resilience4j-timelimiter</module>
+    <module>rxjava</module>
+    <module>selenium-support</module>
     <module>slf4j-api</module>
     <module>slf4j-log4j12</module>
     <module>slf4j-simple</module>
@@ -100,6 +115,7 @@
     <module>tomcat</module>
     <module>univocity-csv</module>
     <module>vaadin</module>
+    <module>weld</module>
   </modules>
   <scm>
     <connection>scm:git:ssh://git@localhost:/projects/active/github.com/java/infrastructure/dependencies.git</connection>

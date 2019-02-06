@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.walterjwhite.infrastructure</groupId>
+    <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.infrastructure.dependencies</groupId>
+  <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>hibernate</artifactId>
   <packaging>pom</packaging>
   <name>hibernate</name>
@@ -17,7 +17,41 @@
       <version>${hibernate.version}</version>
     </dependency>
   </dependencies>
+  <profiles>
+    <profile>
+      <id>JDK9</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <dependencies>
+        <dependency>
+          <groupId>javax.xml.bind</groupId>
+          <artifactId>jaxb-api</artifactId>
+          <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-core</artifactId>
+          <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-impl</artifactId>
+          <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>javax.activation</groupId>
+          <artifactId>javax.activation-api</artifactId>
+          <version>${javax.activation.version}</version>
+        </dependency>
+      </dependencies>
+      <properties>
+        <jaxb.version>2.3.0.1</jaxb.version>
+        <javax.activation.version>1.2.0</javax.activation.version>
+      </properties>
+    </profile>
+  </profiles>
   <properties>
-    <hibernate.version>5.3.0.CR1</hibernate.version>
+    <hibernate.version>5.4.1.Final</hibernate.version>
   </properties>
 </project>
