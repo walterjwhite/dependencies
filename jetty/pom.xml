@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <jetty.version>9.4.14.v20181114</jetty.version>
+    <jetty.version>[9.4.19.v20190610,)</jetty.version>
   </properties>
 </project>

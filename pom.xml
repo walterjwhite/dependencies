@@ -16,16 +16,17 @@
     <module>amazon-config</module>
     <module>amazon-s3</module>
     <module>amazon-sqs</module>
-    <module>apache-jackrabbit</module>
+    <!-- TODO: implement an example with jackrabbit -->
+    <!--<module>apache-jackrabbit</module>-->
     <module>apache-pdfbox</module>
     <module>apache-mahout</module>
-    <module>apache-opennlp</module>
+    <!--<module>apache-opennlp</module>-->
     <module>apache-poi</module>
     <module>arquillian</module>
     <module>ashot</module>
     <module>aspectjrt</module>
     <module>aspectjtools</module>
-    <module>atomikos-jta</module>
+    <!--<module>atomikos-jta</module>-->
     <module>bouncy-castle</module>
     <module>box</module>
     <module>commons-cli</module>
@@ -38,8 +39,9 @@
     <module>commons-logging</module>
     <module>commons-text</module>
     <module>cups4j</module>
-    <module>derby</module>
-    <module>eclipselink</module>
+    <module>datanucleus-jdo</module>
+    <!--<module>derby</module>-->
+    <!--<module>eclipselink</module>-->
     <module>elasticsearch</module>
     <module>expectit</module>
     <module>ews-java-api</module>
@@ -47,12 +49,12 @@
     <!-- Problem resolving dependencies -->
     <!--<module>google-cloud-pub-sub</module>-->
     <module>google-cloud-storage</module>
-    <module>google-dagger</module>
+    <!--<module>google-dagger</module>-->
     <module>google-guava</module>
     <module>google-guice</module>
     <module>google-guice-multi</module>
     <module>google-guice-persist</module>
-    <module>google-guice-servlet</module>
+    <!--<module>google-guice-servlet</module>-->
     <module>google-tensorflow</module>
     <module>h2</module>
     <module>hibernate</module>
@@ -64,33 +66,34 @@
     <module>javamail</module>
     <module>javax-enterprise-cdi</module>
     <module>javax-inject</module>
+    <module>javax-persistence</module>
     <module>javax-servlet</module>
     <module>javax-transaction</module>
     <!--<module>javax-validation</module>-->
     <module>jcabi-manifests</module>
-    <module>jcifs-ng</module>
+    <!--<module>jcifs-ng</module>-->
     <module>jetty</module>
     <module>jbrowserdriver</module>
     <module>jgit</module>
     <module>joda-time</module>
     <module>json</module>
-    <module>jspeedtest</module>
-    <module>jira-client</module>
+    <!--<module>jspeedtest</module>-->
+    <!--<module>jira-client</module>-->
     <module>jooq</module>
     <module>kryo</module>
     <module>lettuce-redis-client</module>
     <module>logback-classic</module>
-    <!--<module>lombok</module>-->
+    <module>lombok</module>
     <module>microbenchmark-harness</module>
     <module>micrometer</module>
     <module>micrometer-elastic</module>
     <module>micrometer-netflix-atlas</module>
     <module>micrometer-prometheus</module>
-    <module>neo4j</module>
+    <!--<module>neo4j</module>-->
     <module>netflix-atlas</module>
     <module>netflix-governator</module>
-    <module>objectdb</module>
-    <module>optaplanner</module>
+    <!--<module>objectdb</module>-->
+    <!--<module>optaplanner</module>-->
     <module>tracing</module>
     <module>p6spy</module>
     <module>postgresql</module>

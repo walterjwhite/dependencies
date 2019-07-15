@@ -7,17 +7,17 @@
     <version>0.0.15-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.dependencies</groupId>
-  <artifactId>apache-pdfbox</artifactId>
+  <artifactId>javax-persistence</artifactId>
   <packaging>pom</packaging>
-  <name>apache-pdfbox</name>
+  <name>javax-persistence</name>
   <dependencies>
     <dependency>
-      <groupId>org.apache.pdfbox</groupId>
-      <artifactId>pdfbox</artifactId>
-      <version>${apache.pdfbox.version}</version>
+      <groupId>javax.persistence</groupId>
+      <artifactId>javax.persistence-api</artifactId>
+      <version>${javax.persistence.version}</version>
     </dependency>
   </dependencies>
   <properties>
-    <apache.pdfbox.version>[2.0.16,)</apache.pdfbox.version>
+    <javax.persistence.version>2.2</javax.persistence.version>
   </properties>
 </project>
