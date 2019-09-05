@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>datanucleus-jdo</artifactId>
@@ -63,6 +63,6 @@
     <datanucleus-jdo-query.version>5.0.9</datanucleus-jdo-query.version>
   </properties>
   <scm>
-    <tag>datanucleus-jdo-0.0.15</tag>
+    <tag>java-0.0.16</tag>
   </scm>
 </project>

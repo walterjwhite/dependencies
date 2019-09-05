@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.walterjwhite.java</groupId>
     <artifactId>dependencies</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.dependencies</groupId>
   <artifactId>tomcat</artifactId>
@@ -38,6 +38,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <tomcat.version>[9.0.12,)</tomcat.version>
+    <tomcat.version>[9.0.14,)</tomcat.version>
   </properties>
 </project>
