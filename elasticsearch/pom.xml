@@ -11,19 +11,14 @@
   <packaging>pom</packaging>
   <name>elasticsearch</name>
   <dependencies>
-    <!--<dependency>-->
-    <!--<groupId>org.elasticsearch</groupId>-->
-    <!--<artifactId>elasticsearch</artifactId>-->
-    <!--<version>${elasticsearch.version}</version>-->
-    <!--</dependency>-->
     <dependency>
       <groupId>org.elasticsearch.client</groupId>
-      <artifactId>transport</artifactId>
+      <artifactId>elasticsearch-rest-high-level-client</artifactId>
       <version>${elasticsearch.version}</version>
     </dependency>
   </dependencies>
   <properties>
-    <elasticsearch.version>6.5.4</elasticsearch.version>
+    <elasticsearch.version>7.3.2</elasticsearch.version>
     <!-- linux / workstation does NOT yet have this installed -->
     <!--<elasticsearch.version>6.0.0-rc1</elasticsearch.version>-->
   </properties>

@@ -23,6 +23,6 @@
     <!--</dependency>-->
   </dependencies>
   <properties>
-    <aspectj.version>1.9.2</aspectj.version>
+    <aspectj.version>1.9.4</aspectj.version>
   </properties>
 </project>

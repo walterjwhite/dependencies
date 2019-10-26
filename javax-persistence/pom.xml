@@ -16,8 +16,26 @@
       <artifactId>javax.persistence-api</artifactId>
       <version>${javax.persistence.version}</version>
     </dependency>
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>${jaxb.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-core</artifactId>
+      <version>${sun.jaxb.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.xml.bind</groupId>
+      <artifactId>jaxb-impl</artifactId>
+      <version>${sun.jaxb.impl.version}</version>
+    </dependency>
   </dependencies>
   <properties>
     <javax.persistence.version>2.2</javax.persistence.version>
+    <jaxb.version>2.3.1</jaxb.version>
+    <sun.jaxb.version>2.3.0.1</sun.jaxb.version>
+    <sun.jaxb.impl.version>2.3.2</sun.jaxb.impl.version>
   </properties>
 </project>
