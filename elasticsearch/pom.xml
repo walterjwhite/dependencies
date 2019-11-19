@@ -18,7 +18,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <elasticsearch.version>7.3.2</elasticsearch.version>
+    <elasticsearch.version>7.4.2</elasticsearch.version>
     <!-- linux / workstation does NOT yet have this installed -->
     <!--<elasticsearch.version>6.0.0-rc1</elasticsearch.version>-->
   </properties>
