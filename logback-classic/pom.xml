@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <logback.version>1.3.0-alpha4</logback.version>
+    <logback.version>1.3.0-alpha5</logback.version>
   </properties>
 </project>

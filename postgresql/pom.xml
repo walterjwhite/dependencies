@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <postgres.version>42.2.5.jre7</postgres.version>
+    <postgres.version>42.2.8.jre7</postgres.version>
   </properties>
 </project>

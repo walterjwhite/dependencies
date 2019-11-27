@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <commons-codec.version>1.11</commons-codec.version>
+    <commons-codec.version>1.13</commons-codec.version>
   </properties>
 </project>

@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <hikari.cp.version>3.3.0</hikari.cp.version>
+    <hikari.cp.version>3.4.1</hikari.cp.version>
   </properties>
 </project>

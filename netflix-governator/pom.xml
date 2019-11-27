@@ -19,6 +19,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <netflix.governator.version>1.17.5</netflix.governator.version>
+    <netflix.governator.version>1.17.9</netflix.governator.version>
   </properties>
 </project>

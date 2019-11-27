@@ -35,6 +35,6 @@
     <!--</dependency>-->
   </dependencies>
   <properties>
-    <google.guice.version>4.2.3-SNAPSHOT</google.guice.version>
+    <google.guice.version>4.2.2</google.guice.version>
   </properties>
 </project>

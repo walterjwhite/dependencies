@@ -19,6 +19,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <kryo.version>5.0.0-RC1</kryo.version>
+    <kryo.version>5.0.0-RC4</kryo.version>
   </properties>
 </project>

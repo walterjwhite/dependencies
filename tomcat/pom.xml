@@ -38,6 +38,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <tomcat.version>[9.0.14,)</tomcat.version>
+    <tomcat.version>9.0.29</tomcat.version>
   </properties>
 </project>

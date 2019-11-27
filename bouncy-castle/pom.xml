@@ -23,6 +23,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <bouncycastle.version>1.60</bouncycastle.version>
+    <bouncycastle.version>1.64</bouncycastle.version>
   </properties>
 </project>

@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <json.version>20180813</json.version>
+    <json.version>20190722</json.version>
   </properties>
 </project>

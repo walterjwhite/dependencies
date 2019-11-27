@@ -42,6 +42,6 @@
   </dependencies>
   <properties>
     <!-- migrate to V12 -->
-    <vaadin.version>8.7.0.beta1</vaadin.version>
+    <vaadin.version>8.9.3</vaadin.version>
   </properties>
 </project>

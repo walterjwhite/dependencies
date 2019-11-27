@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <box.sdk.version>2.26.0</box.sdk.version>
+    <box.sdk.version>2.41.0</box.sdk.version>
   </properties>
 </project>

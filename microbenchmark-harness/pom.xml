@@ -27,6 +27,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <microbenchmark-harness.version>1.21</microbenchmark-harness.version>
+    <microbenchmark-harness.version>1.22</microbenchmark-harness.version>
   </properties>
 </project>

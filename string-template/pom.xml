@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <string.template.version>4.1</string.template.version>
+    <string.template.version>4.2</string.template.version>
   </properties>
 </project>

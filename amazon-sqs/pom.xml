@@ -35,6 +35,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <amazon.sqs.version>1.11.490</amazon.sqs.version>
+    <amazon.sqs.version>1.11.683</amazon.sqs.version>
   </properties>
 </project>

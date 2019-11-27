@@ -72,7 +72,7 @@
     </plugins>
   </build>
   <properties>
-    <jbrowserdriver.version>1.0.1</jbrowserdriver.version>
+    <jbrowserdriver.version>1.1.1</jbrowserdriver.version>
     <!--<selenium.support.version>3.5.3</selenium.support.version>-->
     <selenium.support.version>3.14.0</selenium.support.version>
   </properties>

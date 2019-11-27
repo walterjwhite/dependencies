@@ -36,6 +36,6 @@
     </profile>
   </profiles>
   <properties>
-    <google.tensorflow.version>1.13.0-rc0</google.tensorflow.version>
+    <google.tensorflow.version>1.15.0</google.tensorflow.version>
   </properties>
 </project>

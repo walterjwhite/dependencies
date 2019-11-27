@@ -44,6 +44,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <weld.version>3.1.0.Beta1</weld.version>
+    <weld.version>3.1.2.Final</weld.version>
   </properties>
 </project>

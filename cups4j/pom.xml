@@ -19,6 +19,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <cups4j.version>0.7.5</cups4j.version>
+    <cups4j.version>0.7.6</cups4j.version>
   </properties>
 </project>

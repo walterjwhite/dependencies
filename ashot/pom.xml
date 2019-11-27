@@ -24,6 +24,6 @@
   </dependencies>
   <properties>
     <ashot.version>1.5.4</ashot.version>
-    <byte-buddy.version>1.9.8</byte-buddy.version>
+    <byte-buddy.version>1.10.3</byte-buddy.version>
   </properties>
 </project>

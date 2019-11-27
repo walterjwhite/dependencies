@@ -28,6 +28,6 @@
     </dependencies>
   </dependencyManagement>
   <properties>
-    <arquillian.version>1.4.1.Final</arquillian.version>
+    <arquillian.version>1.5.0.Final</arquillian.version>
   </properties>
 </project>

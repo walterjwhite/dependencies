@@ -58,8 +58,8 @@
   <properties>
     <javax-jdo.version>3.1</javax-jdo.version>
     <datanucleus-enhancer.version>3.1.1</datanucleus-enhancer.version>
-    <datanucleus-jdo.version>3.2.0-m10</datanucleus-jdo.version>
-    <datanucleus.version>5.2.0-m3</datanucleus.version>
+    <datanucleus-jdo.version>3.2.0-m12</datanucleus-jdo.version>
+    <datanucleus.version>5.2.1</datanucleus.version>
     <datanucleus-jdo-query.version>5.0.9</datanucleus-jdo-query.version>
   </properties>
   <scm>

@@ -56,6 +56,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <jackson.version>[2.10.0.pr2,)</jackson.version>
+    <jackson.version>2.10.1</jackson.version>
   </properties>
 </project>

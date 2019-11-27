@@ -34,8 +34,8 @@
   </dependencies>
   <properties>
     <javax.persistence.version>2.2</javax.persistence.version>
-    <jaxb.version>2.3.1</jaxb.version>
+    <jaxb.version>2.4.0-b180830.0359</jaxb.version>
     <sun.jaxb.version>2.3.0.1</sun.jaxb.version>
-    <sun.jaxb.impl.version>2.3.2</sun.jaxb.impl.version>
+    <sun.jaxb.impl.version>2.3.3-b01</sun.jaxb.impl.version>
   </properties>
 </project>

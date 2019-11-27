@@ -18,6 +18,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <commons-text.version>1.6</commons-text.version>
+    <commons-text.version>1.8</commons-text.version>
   </properties>
 </project>
